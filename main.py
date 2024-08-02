@@ -80,6 +80,6 @@ with st.container():  # 'home_tab' yerine st.container kullanın
 
     col_anime.write("""
                     <div style="text-align: justify;">
-                    Explore our anime selection! From epic adventures to touching stories, 
-                    discover the perfect series to engage and entertain you.
+                    Dive into a world of captivating stories, breathtaking animation, and unforgettable characters! Whether you’re a seasoned otaku or a curious newcomer,
+                    our curated anime recommendations are here to guide you to your next favorite series. 🍀.
                     </div>""", unsafe_allow_html=True)
