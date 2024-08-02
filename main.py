@@ -60,7 +60,7 @@ with st.container():  # 'home_tab' yerine st.container kullanın
     #! steam column
     col_game.header('Play Exciting Games')
     image_steam = "https://media1.tenor.com/m/zjbXreUb5_YAAAAd/steam.gif"
-    redirect_steam = "https://store.steampowered.com/"
+    redirect_steam = "https://appent-4a74fdw7esdjc7iw7rsteam.streamlit.app/"
     html_steam = f"""<a href="{redirect_steam}" target="_blank"><img src="{image_steam}" style="width:250px; height:200px;"></a>"""
     col_game.markdown(html_steam, unsafe_allow_html=True)
 
