@@ -1,7 +1,7 @@
 import streamlit.components.v1 as components
 import streamlit as st
 
-st.set_page_config(layout= 'wide', page_title = 'Miuultainment')
+st.set_page_config(layout= 'wide', page_title = 'Miuultainment', page_icon=":clapper:")
 
 st.image('miuulentertainment.gif',width=1400)
 st.title(':rainbow[MIUULtainment] :house: :movie_camera: :video_game:  :green_book: 🎶')
@@ -13,7 +13,6 @@ with st.container():  # 'home_tab' yerine st.container kullanın
     Our platform curates personalized recommendations based on your preferences, ensuring that you find the perfect match every time.""")
 
     col_airbnb, col_amazon, col_movie, col_game, col_anime = st.columns(5)
-
 
     #! airbnb column
     col_airbnb.header('Stay in the Best Places')
@@ -47,7 +46,7 @@ with st.container():  # 'home_tab' yerine st.container kullanın
     #! amazon column
     col_amazon.header('Read Engaging Books')
     image_amazon = "https://media1.tenor.com/m/e45JF2Wtvv0AAAAC/cat99-cat999.gif"
-    redirect_amazon = "https://www.amazon.com/Best-Books-of-2024-So-Far/b?ie=UTF8&node=3003015011"
+    redirect_amazon = "https://book-recomendations.streamlit.app/"
     html_amazon = f"""<a href="{redirect_amazon}" target="_blank"><img src="{image_amazon}" style="width:250px; height:200px;"></a>"""
     col_amazon.markdown(html_amazon, unsafe_allow_html=True)
     col_amazon.write("""
