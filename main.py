@@ -18,7 +18,7 @@ with st.container():  # 'home_tab' yerine st.container kullanın
     #! airbnb column
     col_airbnb.header('Stay in the Best Places')
     image_airbnb = 'https://media1.tenor.com/m/rsSIoLjds9UAAAAC/airbnb-door.gif'
-    redirect_airbnb = "https://www.airbnb.com.tr/"
+    redirect_airbnb = "https://airbnbrecommendations.streamlit.app/"
     html_airbnb = f"""<a href="{redirect_airbnb}" target="_blank"><img src="{image_airbnb}" style="width:250px; height:200px;"></a>"""
     col_airbnb.markdown(html_airbnb, unsafe_allow_html=True)
 
