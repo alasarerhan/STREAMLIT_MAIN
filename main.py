@@ -1,7 +1,7 @@
 import streamlit.components.v1 as components
 import streamlit as st
 
-st.set_page_config(layout= 'wide', page_title = 'Miuultainment', page_icon=":clapper:")
+st.set_page_config(layout= 'wide', page_title = 'Miuultainment')
 
 st.image('miuulentertainment.gif',width=1400)
 st.title(':rainbow[MIUULtainment] :house: :movie_camera: :video_game:  :green_book: 🎶')
